@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800&family=Overpass:ital,wght@0,200;0,700;1,400&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #121417;
+  color: #fff;
+  font-family: Overpass, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  background-color: #252d37;
+  border-radius: 20px;
+}
+
+.message-card {
+  align-items: center;
+}
+
+.icon-box {
+  padding: 0.5rem 0;
+}
+
+.icon-box .icon svg {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.icon-box .icon {
+  background-color: rgba(124, 135, 152, 0.2);
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.card-body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.placeholder {
+  background-color: rgba(124, 135, 152, 0.2);
+  color: #fb7413;
+  font-size: 0.85rem;
+  width: 50%;
+  padding: 0.25rem;
+  border-radius: 20px;
+  margin: 0.7rem;
+}
+.card-body p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: rgb(208, 208, 208);
+  margin: 0.8rem 0;
+}
+
+.card-ratings {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0.1rem 0;
+  width: 100%;
+}
+
+.card-ratings .rating-btn {
+  border: none;
+  background-color: rgba(124, 135, 152, 0.2);
+  color: #959eac;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.rating-btn.active {
+  background-color: rgb(124, 135, 152);
+  color: rgb(0, 0, 0);
+}
+
+.rating-btn:hover {
+  background-color: #fb7413;
+  color: #fff;
+}
+
+.submit {
+  background-color: #fb7413;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+.submit:hover {
+  color: #fb7413;
+  background-color: #fff;
+}
+
+.last {
+  margin-top: 1rem;
+}
+
+.last a {
+  color: #fb7413;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
